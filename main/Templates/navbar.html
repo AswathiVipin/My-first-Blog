@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav {
+  background-color: black;
+  padding: 10px;
+  position: fixed;   /* fixed top menu */
+  top: 0;
+  left:0;
+  width: 200%;
+ /* z-index: 1000;*/
+}
+    </style>
+</head>
+<body>
+    <nav>
+
+<a href="{% url 'a' %}">Home</a> |
+
+<a href="{% url 'about' %}">About</a>
+
+</nav>
+</body>
+</html>
